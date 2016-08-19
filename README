@@ -1,0 +1,16 @@
+This package contains Matlab and R implementations of the algorithms proposed in "Integrating gene set analysis and nonlinear predictive modeling of disease phenotypes using a Bayesian multitask formulation", which is appearing in BMC Bioinformatics.
+
+SBMKL methods
+-------------
+* sbmkl_supervised_classification_variational_train.m => training procedure for binary classification in Matlab
+* sbmkl_supervised_classification_variational_test.m => test procedure for binary classification in Matlab
+* sbmkl_supervised_classification_variational_train.R => training procedure for binary classification in R
+* sbmkl_supervised_classification_variational_test.R => test procedure for binary classification in R
+* sbmtmkl_supervised_classification_variational_train.m => training procedure for multitask binary classification in Matlab
+* sbmtmkl_supervised_classification_variational_test.m => test procedure for multitask binary classification in Matlab
+* sbmtmkl_supervised_classification_variational_train.R => training procedure for multitask binary classification in R
+* sbmtmkl_supervised_classification_variational_test.R => test procedure for multitask binary classification in R
+
+If you use any of the algorithms implemented in the package, please cite the following paper:
+
+Mehmet Gonen. Integrating gene set analysis and nonlinear predictive modeling of disease phenotypes using a Bayesian multitask formulation. BMC Bioinformatics, in press, 2016.
