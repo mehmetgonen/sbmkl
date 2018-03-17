@@ -1,5 +1,3 @@
-# Mehmet Gonen (mehmet.gonen@gmail.com)
-
 logistic <- function(x) {
   z <- 1 / (1 + exp(-x))
   z[z < 1e-2] <- 0

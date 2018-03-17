@@ -1,5 +1,3 @@
-% Mehmet Gonen (mehmet.gonen@gmail.com)
-
 function prediction = sbmtmkl_supervised_classification_variational_test(Km, state)
     T = length(Km);
     N = zeros(T, 1);

@@ -1,5 +1,3 @@
-# Mehmet Gonen (mehmet.gonen@gmail.com)
-
 sbmtmkl_supervised_classification_variational_test <- function(Km, state) {
   T <- length(Km)
   N <- matrix(0, T, 1)
